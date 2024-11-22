@@ -1,5 +1,6 @@
 import { useBreakpoint } from '@tldraw/tldraw'
 import { ChangeEvent, useCallback } from 'react'
+import { MakeRealButton } from './MakeRealButton'
 
 export function RiskyButCoolAPIKeyInput() {
 	const breakpoint = useBreakpoint()
@@ -29,6 +30,7 @@ export function RiskyButCoolAPIKeyInput() {
 						autoCapitalize="off"
 					/>
 				</div>
+				<MakeRealButton />
 				<button className="question__button" onClick={handleQuestionMessage}>
 					{/* <Icon icon="question" /> */}
 				</button>

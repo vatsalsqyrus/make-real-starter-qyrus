@@ -19,6 +19,7 @@ export default function App() {
 			<Tldraw persistenceKey="make-real" shareZone={<MakeRealButton />} shapeUtils={shapeUtils}>
 				<TldrawLogo />
 				<RiskyButCoolAPIKeyInput />
+				{/* <MakeRealButton /> */}
 			</Tldraw>
 		</div>
 	)
