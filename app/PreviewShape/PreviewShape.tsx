@@ -3,7 +3,7 @@ import {
 	BaseBoxShapeUtil,
 	DefaultSpinner,
 	HTMLContainer,
-	Icon,
+	// Icon,
 	SvgExportContext,
 	TLBaseShape,
 	Vec,
@@ -125,7 +125,7 @@ export class PreviewShapeUtil extends BaseBoxShapeUtil<PreviewShape> {
 					}}
 					onPointerDown={stopEventPropagation}
 				>
-					<Icon icon="duplicate" />
+					{/* <Icon icon="duplicate" /> */}
 				</div>
 				{htmlToUse && (
 					<div
